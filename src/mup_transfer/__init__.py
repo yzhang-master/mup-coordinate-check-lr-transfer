@@ -2,6 +2,8 @@
 
 __version__ = "0.1.0"
 
+__all__ = ["width_multiplier"]
+
 
 def width_multiplier(width: int, base_width: int) -> float:
     """Return the μP readout multiplier for a hidden width."""
